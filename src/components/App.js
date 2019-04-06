@@ -9,25 +9,7 @@ import StreamList from './streams/StreamList';
 import StreamDelete from './streams/StreamDelete';
 import StreamShow from './streams/StreamShow';
 import Header from './Header';
-console.log(process.env.REACT_APP_CLIENT_ID);
-//
-// const PageOne = () => {
-//   return (
-//     <div>PageOne
-//   <Link to="/pagetwo">Nav to Page 2</Link>
-//    </div>
-//   );
-//
-// };
-//
-// const PageTwo = () => {
-//   return (
-//     <div>PageTwo
-//     <button>Click Me!</button>
-//     <Link to="/">Nav to Page 2</Link>
-//   </div>
-// );
-// };
+
 
 const App = () => {
   return (

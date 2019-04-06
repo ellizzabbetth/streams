@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+https://stackoverflow.com/questions/10744305/how-to-create-gitignore-file
+https://stackoverflow.com/questions/48699820/how-do-i-hide-api-key-in-create-react-app
+
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 // duplicate line: Ctrl + Shift + D (Windows/Linux)
 
@@ -8,7 +8,8 @@ import StreamEdit from './streams/StreamEdit';
 import StreamList from './streams/StreamList';
 import StreamDelete from './streams/StreamDelete';
 import StreamShow from './streams/StreamShow';
-
+import Header from './Header';
+console.log(process.env.REACT_APP_CLIENT_ID);
 //
 // const PageOne = () => {
 //   return (
@@ -31,8 +32,10 @@ import StreamShow from './streams/StreamShow';
 const App = () => {
   return (
     <div>
+
       <BrowserRouter >
         <div>
+          <Header />
           <Route path ="/" exact component={StreamList} />
           <Route path ="/streams/new" exact component={StreamCreate} />
           <Route path ="/streams/edit" exact component={StreamEdit} />
